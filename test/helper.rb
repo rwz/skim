@@ -1,4 +1,3 @@
-require "rubygems"
 require "minitest/unit"
 require "minitest/reporters"
 require "skim"
