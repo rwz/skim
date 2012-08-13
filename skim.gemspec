@@ -26,6 +26,6 @@ Sprockets-based asset pipeline.}
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "execjs"
-  gem.add_development_dependency "minitest-reporters"
+  gem.add_development_dependency "minitest-reporters", "~> 0.9.0"
   gem.add_development_dependency "therubyracer"
 end
