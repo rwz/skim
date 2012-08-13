@@ -25,7 +25,7 @@ SRC
 
     def self.skim_src
       @@skim_src ||=
-        File.read(File.expand_path("../../../vendor/assets/javascripts/skim.js.coffee", __FILE__))
+        File.read(File.expand_path("../../../vendor/assets/javascripts/skim.js.coffee", __FILE__)).sub('this.', '')
     end
   end
 end
